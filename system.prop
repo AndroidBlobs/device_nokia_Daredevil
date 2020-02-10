@@ -1,8 +1,8 @@
 ro.product.model.display=DDV_TA_Code
 ro.product.model.num=00WW
 ro.product.nickname=Nokia 7.2
-ro.build.software.version=V1.390
-ro.build.software.version.suf=_1_390
+ro.build.software.version=V1.400
+ro.build.software.version.suf=_1_400
 ro.product.chip=sdm660
 ro.nhk_feature=1
 ro.support_sim2_ringtone=1

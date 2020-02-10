@@ -17,7 +17,7 @@ PRODUCT_MODEL := Nokia 7.2
 PRODUCT_GMS_CLIENTID_BASE := android-nokia
 TARGET_VENDOR := nokia
 TARGET_VENDOR_PRODUCT_NAME := Daredevil
-PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="m690-user 9 PKQ1.190118.001 90 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="m690-user 9 PKQ1.190118.001 11 release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := Nokia/Daredevil_00WW/DDV_sprout:9/PKQ1.190118.001/00WW_1_390:user/release-keys
+BUILD_FINGERPRINT := Nokia/Daredevil_00WW/DDV_sprout:9/PKQ1.190118.001/00WW_1_400:user/release-keys

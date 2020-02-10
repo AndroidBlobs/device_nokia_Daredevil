@@ -1,7 +1,5 @@
 -app/QtiTelephonyService/QtiTelephonyService.apk
 -app/aptxals/aptxals.apk
--app/aptxals/oat/arm64/aptxals.odex
--app/aptxals/oat/arm64/aptxals.vdex
 -app/datastatusnotification/datastatusnotification.apk
 -app/embms/embms.apk
 -app/imssettings/imssettings.apk
@@ -51,6 +49,7 @@ etc/permissions/qcrilhook.xml
 etc/permissions/qti_libpermissions.xml
 etc/permissions/qti_permissions.xml
 etc/permissions/telephonyservice.xml
+etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml
 etc/sysconfig/qti_whitelist.xml
 etc/wfdconfig.xml
 etc/wfdconfigsink.xml
@@ -86,6 +85,7 @@ framework/vendor.qti.hardware.data.connection-V1.0-java.jar
 framework/vendor.qti.hardware.data.dynamicdds-V1.0-java.jar
 framework/vendor.qti.hardware.data.latency-V1.0-java.jar
 framework/vendor.qti.hardware.data.qmi-V1.0-java.jar
+framework/vendor.qti.hardware.factory-V1.0-java.jar
 framework/vendor.qti.hardware.soter-V1.0-java.jar
 framework/vendor.qti.ims.callinfo-V1.0-java.jar
 framework/vendor.qti.ims.rcsconfig-V1.0-java.jar
@@ -119,6 +119,9 @@ lib/libmmosal.so
 lib/libmmparser_lite.so
 lib/libmmrtpdecoder.so
 lib/libmmrtpencoder.so
+lib/libqti-perfd-client_system.so
+lib/libqti-util_system.so
+lib/libqti_performance.so
 lib/librcc.so
 lib/libwfdavenhancements.so
 lib/libwfdclient.so
@@ -150,6 +153,8 @@ lib/vendor.qti.gnss@2.1.so
 lib/vendor.qti.hardware.data.connection@1.0.so
 lib/vendor.qti.hardware.data.dynamicdds@1.0.so
 lib/vendor.qti.hardware.data.latency@1.0.so
+lib/vendor.qti.hardware.factory@1.0.so
+lib/vendor.qti.hardware.perf@1.0.so
 lib/vendor.qti.hardware.scve.objecttracker@1.0-adapter-helper.so
 lib/vendor.qti.hardware.scve.objecttracker@1.0.so
 lib/vendor.qti.hardware.scve.panorama@1.0-adapter-helper.so
@@ -188,6 +193,9 @@ lib64/libmmosal.so
 lib64/libmmparser_lite.so
 lib64/libmmrtpdecoder.so
 lib64/libmmrtpencoder.so
+lib64/libqti-perfd-client_system.so
+lib64/libqti-util_system.so
+lib64/libqti_performance.so
 lib64/librcc.so
 lib64/libwfdclient.so
 lib64/libwfdnative.so
@@ -205,6 +213,8 @@ lib64/vendor.qti.gnss@2.1.so
 lib64/vendor.qti.hardware.data.connection@1.0.so
 lib64/vendor.qti.hardware.data.dynamicdds@1.0.so
 lib64/vendor.qti.hardware.data.latency@1.0.so
+lib64/vendor.qti.hardware.factory@1.0.so
+lib64/vendor.qti.hardware.perf@1.0.so
 lib64/vendor.qti.hardware.scve.objecttracker@1.0-adapter-helper.so
 lib64/vendor.qti.hardware.scve.objecttracker@1.0.so
 lib64/vendor.qti.hardware.scve.panorama@1.0-adapter-helper.so
